@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/work-session-tracker/static/css/main.09af98c1.css",
+    "main.js": "/work-session-tracker/static/js/main.fee44f80.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/work-session-tracker/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/work-session-tracker/index.html",
+    "main.09af98c1.css.map": "/work-session-tracker/static/css/main.09af98c1.css.map",
+    "main.fee44f80.js.map": "/work-session-tracker/static/js/main.fee44f80.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/work-session-tracker/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09af98c1.css",
+    "static/js/main.fee44f80.js"
+  ]
+}
