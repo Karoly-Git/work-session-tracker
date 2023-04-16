@@ -1,34 +1,34 @@
 export let data = [
-    {
-        id: 1,
-        workerName: "Carl",
-        pin: "ccc",
-        status: "absence",
-        dressing: [],
-        cleaning: [{ id: 1, start: null, finish: null, task: null }],
-        otherTask: [{ id: 1, start: null, finish: null, task: null }],
-        absence: [{ id: 1, start: null, finish: null, reason: null }]
-    },
-    {
-        id: 2,
-        workerName: "Artur",
-        pin: "aaa",
-        status: "absence",
-        dressing: [],
-        cleaning: [{ id: 1, start: null, finish: null, task: null }],
-        otherTask: [{ id: 1, start: null, finish: null, task: null }],
-        absence: [{ id: 1, start: null, finish: null, reason: null }]
-    },
-    {
-        id: 3,
-        workerName: "Daniel",
-        pin: "ddd",
-        status: "absence",
-        dressing: [],
-        cleaning: [{ id: 1, start: null, finish: null, task: null }],
-        otherTask: [{ id: 1, start: null, finish: null, task: null }],
-        absence: [{ id: 1, start: null, finish: null, reason: null }]
-    }
+  {
+    id: 1,
+    workerName: "Carl",
+    pin: "ccc",
+    status: "absence",
+    dressing: [],
+    cleaning: [],
+    otherTask: [],
+    absence: [],
+  },
+  {
+    id: 2,
+    workerName: "Artur",
+    pin: "aaa",
+    status: "absence",
+    dressing: [],
+    cleaning: [],
+    otherTask: [],
+    absence: [],
+  },
+  {
+    id: 3,
+    workerName: "Daniel",
+    pin: "ddd",
+    status: "absence",
+    dressing: [],
+    cleaning: [],
+    otherTask: [],
+    absence: [],
+  }
 ];
 
 /*

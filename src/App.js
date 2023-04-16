@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DressedInput from "./components/dressed_input";
 import Button from "./components/button";
 import { data } from "./js/daja";
+import { dressingSchema as dressingSession } from './js/schemas';
 import "./css/style.css";
 
 export default function App() {
@@ -19,19 +20,6 @@ export default function App() {
   });
 
   const [sessionId, setSessionId] = useState(1);
-
-  const dressingSession = {
-    id: null,
-    start: null,
-    finish: null,
-    materials: {
-      occ: null,
-      nip: null,
-      mixedPaper: null,
-      plastic: null,
-      steel: null
-    }
-  };
 
   const [dressedOcc, setDressedOcc] = useState(0);
   const [dressedNip, setDressedNip] = useState(0);
