@@ -9,6 +9,10 @@
     user-select: none;
 }
 
+body {
+    background-color: gray;
+}
+
 .app {
     display: flex;
     flex-direction: column;
