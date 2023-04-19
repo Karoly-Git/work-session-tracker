@@ -95,8 +95,12 @@ export default function App() {
     heroku: "https://work-session-tracker.herokuapp.com/work-session-tracker.json"
   };
 
+  let isServerLocal = false;
+
+  let url = isServerLocal ? servers.localhost : servers.heroku;
+
   useEffect(() => {
-    fetch(servers.localhost)
+    fetch(url)
       .then(res => res.json())
       .then(result => {
         let sortedResult = result.sort((a, b) => {
